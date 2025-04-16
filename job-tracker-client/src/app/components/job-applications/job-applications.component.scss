@@ -1,0 +1,35 @@
+.job-applications-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.styled-table th {
+    background-color: #7b86c5;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.styled-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.mat-elevation-z8 {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

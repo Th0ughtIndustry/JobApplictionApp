@@ -1,0 +1,57 @@
+.modal-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: visible;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.actions {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+button[mat-button] {
+    font-size: 0.9rem;
+}
+
+button[mat-raised-button] {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+}
+
+.dropdown-panel {
+    max-height: 200px;
+}
+
+mat-error {
+    color: red !important;
+    font-size: 0.8rem !important;
+    margin-top: 5px !important;
+}
+
+::ng-deep .dropdown-panel {
+    z-index: 1000 !important;
+    position: absolute !important;
+    max-width: 500px !important;
+}
